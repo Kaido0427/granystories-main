@@ -6,8 +6,10 @@
     "license": "MIT",
     "require": {
         "php": "^8.1",
+        "barryvdh/laravel-dompdf": "^2.2",
+        "dompdf/dompdf": "^3.0",
         "guzzlehttp/guzzle": "^7.2",
-        "laravel/framework": "^10.10",
+        "laravel/framework": "^10",
         "laravel/sanctum": "^3.3",
         "laravel/tinker": "^2.8",
         "laravel/ui": "^4.5"
@@ -53,7 +55,7 @@
             "dont-discover": []
         }
     },
-    "config": {
+    "config": { 
         "optimize-autoloader": true,
         "preferred-install": "dist",
         "sort-packages": true,
